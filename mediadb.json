@@ -6,7 +6,7 @@
 "aspect-ratio":{
   "decription":"Width-to-height aspect ratio of the viewport","values":[],"disabled":true},
 "color":{
-  "decription":"Number of bits per color component of the output device, or zero if the device isn't color","range":{"unit":"","min":1,"max":10,"step":1},"values":[]},
+  "decription":"Number of bits per color component of the output device, or zero if the device isn't color","range":{"unit":"","min":1,"max":10,"step":1}},
 "color-gamut":{
   "decription":"Approximate range of colors that are supported by the user agent and output device","values":[],"disabled":true},
 "color-index":{
@@ -16,7 +16,7 @@
 "grid":{
   "decription":"Does the device use a grid or bitmap screen? [0 = bitmap; 1 = grid]","values":[0,1]},
 "height":{
-  "decription":"Height of the viewport","values":[],"disabled":true},
+  "decription":"Height of the viewport","range":{"unit":"px","min":300,"max":3000,"step":300}},
 "hover":{
   "decription":"Does the primary input mechanism allow the user to hover over elements?","values":["none","hover"]},
 "inverted-colors":{
@@ -42,7 +42,7 @@
 "prefers-reduced-transparency":{
   "decription":"The user prefers reduced transparency","values":[],"disabled":true},
 "resolution":{
-  "decription":"Pixel density of the output device","range":{"unit":"dpi","step":30,"min":50,"max":300},"values":["TODO"]},
+  "decription":"Pixel density of the output device","range":{"unit":"dpi","step":30,"min":50,"max":300}},
 "scan":{
   "decription":"Scanning process of the output device","values":["scan","progressive"],"disabled":true},
 "scripting":{
@@ -50,5 +50,5 @@
 "update":{
   "decription":"How frequently the output device can modify the appearance of content","values":[],"disabled":true},
 "width":{
-  "decription":"Width of the viewport including width of scrollbar","values":[],"disabled":true}
+  "decription":"Width of the viewport including width of scrollbar","range":{"unit":"px","min":300,"max":3000,"step":300}}
 }

@@ -32,6 +32,18 @@
 @media (grid:1){
 #media-grid > .v_1{ display: block }
 }
+#media-height > .range{ background-size: 9.090909090909092% }
+@media (max-height:300px){ #media-height > .range{ background-position: 0% } }
+@media (min-height:300px){ #media-height > .range{ background-position: 10% } }
+@media (min-height:600px){ #media-height > .range{ background-position: 20% } }
+@media (min-height:900px){ #media-height > .range{ background-position: 30% } }
+@media (min-height:1200px){ #media-height > .range{ background-position: 40% } }
+@media (min-height:1500px){ #media-height > .range{ background-position: 50% } }
+@media (min-height:1800px){ #media-height > .range{ background-position: 60% } }
+@media (min-height:2100px){ #media-height > .range{ background-position: 70% } }
+@media (min-height:2400px){ #media-height > .range{ background-position: 80% } }
+@media (min-height:2700px){ #media-height > .range{ background-position: 90% } }
+@media (min-height:3000px){ #media-height > .range{ background-position: 100% } }
 @media (hover:none){
 #media-hover > .v_none{ display: block }
 }
@@ -86,3 +98,15 @@
 @media (min-resolution:230dpi){ #media-resolution > .range{ background-position: 77.77777777777779% } }
 @media (min-resolution:260dpi){ #media-resolution > .range{ background-position: 88.88888888888889% } }
 @media (min-resolution:290dpi){ #media-resolution > .range{ background-position: 100% } }
+#media-width > .range{ background-size: 9.090909090909092% }
+@media (max-width:300px){ #media-width > .range{ background-position: 0% } }
+@media (min-width:300px){ #media-width > .range{ background-position: 10% } }
+@media (min-width:600px){ #media-width > .range{ background-position: 20% } }
+@media (min-width:900px){ #media-width > .range{ background-position: 30% } }
+@media (min-width:1200px){ #media-width > .range{ background-position: 40% } }
+@media (min-width:1500px){ #media-width > .range{ background-position: 50% } }
+@media (min-width:1800px){ #media-width > .range{ background-position: 60% } }
+@media (min-width:2100px){ #media-width > .range{ background-position: 70% } }
+@media (min-width:2400px){ #media-width > .range{ background-position: 80% } }
+@media (min-width:2700px){ #media-width > .range{ background-position: 90% } }
+@media (min-width:3000px){ #media-width > .range{ background-position: 100% } }
