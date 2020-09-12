@@ -1,0 +1,88 @@
+/* Generated stylesheet */
+@media (any-hover:none){
+#media-any-hover > .v_none{ display: block }
+}
+@media (any-hover:hover){
+#media-any-hover > .v_hover{ display: block }
+}
+@media (any-pointer:fine){
+#media-any-pointer > .v_fine{ display: block }
+}
+@media (any-pointer:coarse){
+#media-any-pointer > .v_coarse{ display: block }
+}
+@media (any-pointer:none){
+#media-any-pointer > .v_none{ display: block }
+}
+#media-color > .range{ background-size: 9.090909090909092% }
+@media (max-color:1){ #media-color > .range{ background-position: 0% } }
+@media (min-color:1){ #media-color > .range{ background-position: 10% } }
+@media (min-color:2){ #media-color > .range{ background-position: 20% } }
+@media (min-color:3){ #media-color > .range{ background-position: 30% } }
+@media (min-color:4){ #media-color > .range{ background-position: 40% } }
+@media (min-color:5){ #media-color > .range{ background-position: 50% } }
+@media (min-color:6){ #media-color > .range{ background-position: 60% } }
+@media (min-color:7){ #media-color > .range{ background-position: 70% } }
+@media (min-color:8){ #media-color > .range{ background-position: 80% } }
+@media (min-color:9){ #media-color > .range{ background-position: 90% } }
+@media (min-color:10){ #media-color > .range{ background-position: 100% } }
+@media (grid:0){
+#media-grid > .v_0{ display: block }
+}
+@media (grid:1){
+#media-grid > .v_1{ display: block }
+}
+@media (hover:none){
+#media-hover > .v_none{ display: block }
+}
+@media (hover:hover){
+#media-hover > .v_hover{ display: block }
+}
+#media-monochrome > .range{ background-size: 11.11111111111111% }
+@media (max-monochrome:1bits){ #media-monochrome > .range{ background-position: 0% } }
+@media (min-monochrome:1bits){ #media-monochrome > .range{ background-position: 12.5% } }
+@media (min-monochrome:2bits){ #media-monochrome > .range{ background-position: 25% } }
+@media (min-monochrome:3bits){ #media-monochrome > .range{ background-position: 37.5% } }
+@media (min-monochrome:4bits){ #media-monochrome > .range{ background-position: 50% } }
+@media (min-monochrome:5bits){ #media-monochrome > .range{ background-position: 62.5% } }
+@media (min-monochrome:6bits){ #media-monochrome > .range{ background-position: 75% } }
+@media (min-monochrome:7bits){ #media-monochrome > .range{ background-position: 87.5% } }
+@media (min-monochrome:8bits){ #media-monochrome > .range{ background-position: 100% } }
+@media (orientation:landscape){
+#media-orientation > .v_landscape{ display: block }
+}
+@media (orientation:portrait){
+#media-orientation > .v_portrait{ display: block }
+}
+@media (pointer:none){
+#media-pointer > .v_none{ display: block }
+}
+@media (pointer:coarse){
+#media-pointer > .v_coarse{ display: block }
+}
+@media (pointer:fine){
+#media-pointer > .v_fine{ display: block }
+}
+@media (prefers-color-scheme:dark){
+#media-prefers-color-scheme > .v_dark{ display: block }
+}
+@media (prefers-color-scheme:light){
+#media-prefers-color-scheme > .v_light{ display: block }
+}
+@media (prefers-reduced-motion:reduce){
+#media-prefers-reduced-motion > .v_reduce{ display: block }
+}
+@media (prefers-reduced-motion:no-preference){
+#media-prefers-reduced-motion > .v_no-preference{ display: block }
+}
+#media-resolution > .range{ background-size: 10% }
+@media (max-resolution:50dpi){ #media-resolution > .range{ background-position: 0% } }
+@media (min-resolution:50dpi){ #media-resolution > .range{ background-position: 11.11111111111111% } }
+@media (min-resolution:80dpi){ #media-resolution > .range{ background-position: 22.22222222222222% } }
+@media (min-resolution:110dpi){ #media-resolution > .range{ background-position: 33.33333333333333% } }
+@media (min-resolution:140dpi){ #media-resolution > .range{ background-position: 44.44444444444444% } }
+@media (min-resolution:170dpi){ #media-resolution > .range{ background-position: 55.55555555555556% } }
+@media (min-resolution:200dpi){ #media-resolution > .range{ background-position: 66.66666666666666% } }
+@media (min-resolution:230dpi){ #media-resolution > .range{ background-position: 77.77777777777779% } }
+@media (min-resolution:260dpi){ #media-resolution > .range{ background-position: 88.88888888888889% } }
+@media (min-resolution:290dpi){ #media-resolution > .range{ background-position: 100% } }
