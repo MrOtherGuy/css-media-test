@@ -33,4 +33,4 @@ h2{ margin-block: 0.4em; font-family: monospace;  }
   border-inline-start: 1px solid
 }
 .range.sparse{ margin-block: 0.5em 1.5em; height: 1.2em  }
-.range.sparse > div > span{ position: absolute; transform: translateY(60%) rotateZ(60deg); transform-origin: left }
+.range.sparse > div > span{ position: absolute; transform: translateY(0.4em) rotateZ(60deg); transform-origin: left }
