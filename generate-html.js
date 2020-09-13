@@ -2,11 +2,22 @@ const fs = require('fs').promises;
 
 function createThing(name,obj,textObject){
 
-  textObject.htmlText += `<div id="media-${name}" class="media-item">\n<h2>${name}</h2>\n<div class="description">${obj.decription}</div>\n`;
+  textObject.htmlText += `<div id="media-${name}" class="media-item">\n<h2>${name}</h2>\n<div class="description">${obj.decription}`
+  if(obj.range && obj.range.unit){
+    textObject.htmlText += ` (${obj.range.unit})`;
+  }
+  textObject.htmlText += `</div>\n`;
   // item <div> is open
   
   if(obj.range){
-    textObject.htmlText += `<div class="range">\n<div>0</div>\n`;
+    
+    const isSparse = obj.range.step > 1;
+
+    if(isSparse){
+      textObject.htmlText += `<div class="range sparse">\n<div><span>0</span></div>\n`;
+    }else{
+      textObject.htmlText += `<div class="range">\n<div>0</div>\n`;
+    }
     // range div is open
  
     let maxn = 15;
@@ -19,7 +30,12 @@ function createThing(name,obj,textObject){
     
     while( maxn > 0 && i <= obj.range.max){
 
-      textObject.htmlText += `<div>${i}</div>\n`;
+      if(isSparse){
+        textObject.htmlText += `<div><span>${i}</span></div>\n`;
+      }else{
+        textObject.htmlText += `<div>${i}</div>\n`;
+      }
+      
       textObject.cssText += `@media (min-${name}:${i}${obj.range.unit}){ ${rangeSelector}{ background-position: ${k/N*100}% } }\n`;
       
       maxn--;
