@@ -32,6 +32,12 @@
 @media (grid:1){
 #media-grid > .v_1{ display: block }
 }
+@media (forced-colors:none){
+#media-forced-colors > .v_none{ display: block }
+}
+@media (forced-colors:active){
+#media-forced-colors > .v_active{ display: block }
+}
 #media-height > .range{ background-size: 9.090909090909092% }
 @media (max-height:300px){ #media-height > .range{ background-position: 0% } }
 @media (min-height:300px){ #media-height > .range{ background-position: 10% } }
