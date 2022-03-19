@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 function createThing(name,obj,textObject){
 
   textObject.htmlText += `<div id="media-${name}" class="media-item">\n<h2>${name}</h2>\n<div class="description">${obj.description}`
-  if(obj.range && (obj.range.unit || obj.range.fraction)){
+  if(obj.range && obj.range.unit){
     textObject.htmlText += ` (${obj.range.unit})`;
   }
   textObject.htmlText += `</div>\n`;
