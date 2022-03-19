@@ -1,5 +1,13 @@
 html{ font-family: sans-serif; background: gainsboro }
 h2{ margin-block: 0.4em; font-family: monospace;  }
+pre{
+  font-size: 1.2em;
+  margin-block: 0.3em;
+  border-inline-start: 2px solid;
+  background-color: rgba(0,0,0,0.2);
+  padding-block: 0.2em;
+}
+pre.range{ border: none }
 .range{ background-image: linear-gradient(darkseagreen, forestgreen); background-repeat: no-repeat; }
 
 @media (prefers-color-scheme:dark){
@@ -14,14 +22,17 @@ h2{ margin-block: 0.4em; font-family: monospace;  }
   background: rgba(100,100,100,0.2);
   padding: 0.5em;
 }
-.media-item > div{ display: none }
+.media-item:target{
+  border-color: salmon;
+}
+.media-item > pre{ display: none }
 
 .media-item > .description,
 .media-item > .range{ display: flex; }
 .range > div{ flex-grow: 1; flex-basis: 4ch; text-align: center }
 
 
-.description{ border-bottom: 1px solid currentColor; }
+.description{ border-bottom: 1px solid currentColor; margin-bottom: 0.2em }
 
 .description ~ :not(.range){ font-weight: bold }
 .description ~ :not(.range)::before{ content: ">>"; margin-inline: 1ch; color: dimgrey }

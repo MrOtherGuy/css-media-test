@@ -14,6 +14,24 @@
 @media (any-pointer:none){
 #media-any-pointer > .v_none{ display: block }
 }
+#media-aspect-ratio > .range{ background-size: 5.882352941176471% }
+@media (max-aspect-ratio:1/4){ #media-aspect-ratio > .range{ background-position: 0% } }
+@media (min-aspect-ratio:1/4){ #media-aspect-ratio > .range{ background-position: 6.25% } }
+@media (min-aspect-ratio:2/4){ #media-aspect-ratio > .range{ background-position: 12.5% } }
+@media (min-aspect-ratio:3/4){ #media-aspect-ratio > .range{ background-position: 18.75% } }
+@media (min-aspect-ratio:4/4){ #media-aspect-ratio > .range{ background-position: 25% } }
+@media (min-aspect-ratio:5/4){ #media-aspect-ratio > .range{ background-position: 31.25% } }
+@media (min-aspect-ratio:6/4){ #media-aspect-ratio > .range{ background-position: 37.5% } }
+@media (min-aspect-ratio:7/4){ #media-aspect-ratio > .range{ background-position: 43.75% } }
+@media (min-aspect-ratio:8/4){ #media-aspect-ratio > .range{ background-position: 50% } }
+@media (min-aspect-ratio:9/4){ #media-aspect-ratio > .range{ background-position: 56.25% } }
+@media (min-aspect-ratio:10/4){ #media-aspect-ratio > .range{ background-position: 62.5% } }
+@media (min-aspect-ratio:11/4){ #media-aspect-ratio > .range{ background-position: 68.75% } }
+@media (min-aspect-ratio:12/4){ #media-aspect-ratio > .range{ background-position: 75% } }
+@media (min-aspect-ratio:13/4){ #media-aspect-ratio > .range{ background-position: 81.25% } }
+@media (min-aspect-ratio:14/4){ #media-aspect-ratio > .range{ background-position: 87.5% } }
+@media (min-aspect-ratio:15/4){ #media-aspect-ratio > .range{ background-position: 93.75% } }
+@media (min-aspect-ratio:16/4){ #media-aspect-ratio > .range{ background-position: 100% } }
 #media-color > .range{ background-size: 9.090909090909092% }
 @media (max-color:1){ #media-color > .range{ background-position: 0% } }
 @media (min-color:1){ #media-color > .range{ background-position: 10% } }
@@ -26,6 +44,18 @@
 @media (min-color:8){ #media-color > .range{ background-position: 80% } }
 @media (min-color:9){ #media-color > .range{ background-position: 90% } }
 @media (min-color:10){ #media-color > .range{ background-position: 100% } }
+@media (display-mode:fullscreen){
+#media-display-mode > .v_fullscreen{ display: block }
+}
+@media (display-mode:standalone){
+#media-display-mode > .v_standalone{ display: block }
+}
+@media (display-mode:minimal-ui){
+#media-display-mode > .v_minimal-ui{ display: block }
+}
+@media (display-mode:browser){
+#media-display-mode > .v_browser{ display: block }
+}
 @media (grid:0){
 #media-grid > .v_0{ display: block }
 }
@@ -72,6 +102,24 @@
 @media (orientation:portrait){
 #media-orientation > .v_portrait{ display: block }
 }
+@media (overflow-block:none){
+#media-overflow-block > .v_none{ display: block }
+}
+@media (overflow-block:scroll){
+#media-overflow-block > .v_scroll{ display: block }
+}
+@media (overflow-block:optional-paged){
+#media-overflow-block > .v_optional-paged{ display: block }
+}
+@media (overflow-block:paged){
+#media-overflow-block > .v_paged{ display: block }
+}
+@media (overflow-inline:none){
+#media-overflow-inline > .v_none{ display: block }
+}
+@media (overflow-inline:scroll){
+#media-overflow-inline > .v_scroll{ display: block }
+}
 @media (pointer:none){
 #media-pointer > .v_none{ display: block }
 }
@@ -86,6 +134,15 @@
 }
 @media (prefers-color-scheme:light){
 #media-prefers-color-scheme > .v_light{ display: block }
+}
+@media (prefers-contrast:no-preference){
+#media-prefers-contrast > .v_no-preference{ display: block }
+}
+@media (prefers-contrast:less){
+#media-prefers-contrast > .v_less{ display: block }
+}
+@media (prefers-contrast:more){
+#media-prefers-contrast > .v_more{ display: block }
 }
 @media (prefers-reduced-motion:reduce){
 #media-prefers-reduced-motion > .v_reduce{ display: block }

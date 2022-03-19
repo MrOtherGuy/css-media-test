@@ -1,56 +1,56 @@
 {
 "any-hover":{
-  "decription":"Does any available input mechanism allow the user to hover over elements?","values":["none","hover"]},
+  "description":"Does any available input mechanism allow the user to hover over elements?","values":["none","hover"]},
 "any-pointer":{
-  "decription":"Is any available input mechanism a pointing device, and if so, how accurate is it?","values":["fine","coarse","none"]},
+  "description":"Is any available input mechanism a pointing device, and if so, how accurate is it?","values":["fine","coarse","none"]},
 "aspect-ratio":{
-  "decription":"Width-to-height aspect ratio of the viewport","values":[],"disabled":true},
+  "description":"Width-to-height aspect ratio of the viewport","range":{"fraction":true,"denominator":4,"step":1,"min":1,"max":16}},
 "color":{
-  "decription":"Number of bits per color component of the output device, or zero if the device isn't color","range":{"unit":"","min":1,"max":10,"step":1}},
+  "description":"Number of bits per color component of the output device, or zero if the device isn't color","range":{"unit":"","min":1,"max":10,"step":1}},
 "color-gamut":{
-  "decription":"Approximate range of colors that are supported by the user agent and output device","values":[],"disabled":true},
+  "description":"Approximate range of colors that are supported by the user agent and output device","values":[],"disabled":true},
 "color-index":{
-  "decription":"Number of entries in the output device's color lookup table, or zero if the device does not use such a table","values":[],"disabled":true},
+  "description":"Number of entries in the output device's color lookup table, or zero if the device does not use such a table","values":[],"disabled":true},
 "display-mode":{
-  "decription":"The display mode of the application, as specified in the web app manifest's display member","values":[],"disabled":true},
+  "description":"The display mode of the application, as specified in the web app manifest's display member","values":["fullscreen","standalone","minimal-ui","browser"]},
 "grid":{
-  "decription":"Does the device use a grid or bitmap screen? [0 = bitmap; 1 = grid]","values":[0,1]},
+  "description":"Does the device use a grid or bitmap screen? [0 = bitmap; 1 = grid]","values":[0,1]},
 "forced-colors":{
-  "decription":"Detect whether user agent restricts color palette","values":["none","active"]},
+  "description":"Detect whether user agent restricts color palette","values":["none","active"]},
 "height":{
-  "decription":"Height of the viewport","range":{"unit":"px","min":300,"max":3000,"step":300}},
+  "description":"Height of the viewport","range":{"unit":"px","min":300,"max":3000,"step":300}},
 "hover":{
-  "decription":"Does the primary input mechanism allow the user to hover over elements?","values":["none","hover"]},
+  "description":"Does the primary input mechanism allow the user to hover over elements?","values":["none","hover"]},
 "inverted-colors":{
-  "decription":"Is the user agent or underlying OS inverting colors?","values":[],"disabled":true},
+  "description":"Is the user agent or underlying OS inverting colors?","values":[],"disabled":true},
 "light-level":{
-  "decription":"Light level of the environment","values":[],"disabled":true},
+  "description":"Light level of the environment","values":[],"disabled":true},
 "monochrome":{
-  "decription":"Bits per pixel in the output device's monochrome frame buffer, or zero if the device isn't monochrome","range":{"min":1,"max":8,"step":1,"unit":"bits"}},
+  "description":"Bits per pixel in the output device's monochrome frame buffer, or zero if the device isn't monochrome","range":{"min":1,"max":8,"step":1,"unit":"bits"}},
 "orientation":{
-  "decription":"Orientation of the viewport","values":["landscape","portrait"]},
+  "description":"Orientation of the viewport","values":["landscape","portrait"]},
 "overflow-block":{
-  "decription":"How does the output device handle content that overflows the viewport along the block axis?","values":[],"disabled":true},
+  "description":"How does the output device handle content that overflows the viewport along the block axis?","values":["none","scroll","optional-paged","paged"]},
 "overflow-inline":{
-  "decription":"Can content that overflows the viewport along the inline axis be scrolled?","values":[],"disabled":true},
+  "description":"Can content that overflows the viewport along the inline axis be scrolled?","values":["none","scroll"]},
 "pointer":{
-  "decription":"Is the primary input mechanism a pointing device, and if so, how accurate is it?","values":["none","coarse","fine"]},
+  "description":"Is the primary input mechanism a pointing device, and if so, how accurate is it?","values":["none","coarse","fine"]},
 "prefers-color-scheme":{
-  "decription":"Detect if the user prefers a light or dark color scheme","values":["dark","light"]},
+  "description":"Detect if the user prefers a light or dark color scheme","values":["dark","light"]},
 "prefers-contrast":{
-  "decription":"Detects if the user has requested the system increase or decrease the amount of contrast between adjacent colors","values":["less","more"],"disabled":true},
+  "description":"Detects if the user has requested the system increase or decrease the amount of contrast between adjacent colors","values":["no-preference","less","more"]},
 "prefers-reduced-motion":{
-  "decription":"The user prefers less motion on the page","values":["reduce","no-preference"]},
+  "description":"The user prefers less motion on the page","values":["reduce","no-preference"]},
 "prefers-reduced-transparency":{
-  "decription":"The user prefers reduced transparency","values":[],"disabled":true},
+  "description":"The user prefers reduced transparency","values":[],"disabled":true},
 "resolution":{
-  "decription":"Pixel density of the output device","range":{"unit":"dpi","step":30,"min":50,"max":300}},
+  "description":"Pixel density of the output device","range":{"unit":"dpi","step":30,"min":50,"max":300}},
 "scan":{
-  "decription":"Scanning process of the output device","values":["scan","progressive"],"disabled":true},
+  "description":"Scanning process of the output device","values":["scan","progressive"],"disabled":true},
 "scripting":{
-  "decription":"Detects whether scripting (i.e. JavaScript) is available","values":[],"disabled":true},
+  "description":"Detects whether scripting (i.e. JavaScript) is available","values":[],"disabled":true},
 "update":{
-  "decription":"How frequently the output device can modify the appearance of content","values":[],"disabled":true},
+  "description":"How frequently the output device can modify the appearance of content","values":[],"disabled":true},
 "width":{
-  "decription":"Width of the viewport including width of scrollbar","range":{"unit":"px","min":300,"max":3000,"step":300}}
+  "description":"Width of the viewport including width of scrollbar","range":{"unit":"px","min":300,"max":3000,"step":300}}
 }
