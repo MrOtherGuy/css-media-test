@@ -45,6 +45,6 @@ pre.range{ border: none }
 }
 .range.sparse{ margin-block: 0.5em 1.5em; height: 1.2em  }
 .range.sparse > div > span{ position: absolute; transform: translateY(0.4em) rotateZ(60deg); transform-origin: left }
-@media (max-width: 500px){
+@media (max-width: 550px){
   .sparse > :nth-child(2n) > span{ visibility: hidden }
 }
