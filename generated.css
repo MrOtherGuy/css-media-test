@@ -44,6 +44,15 @@
 @media (min-color:8){ #media-color > .range{ background-position: 80% } }
 @media (min-color:9){ #media-color > .range{ background-position: 90% } }
 @media (min-color:10){ #media-color > .range{ background-position: 100% } }
+@media (color-gamut:srgb){
+#media-color-gamut > .v_srgb{ display: block }
+}
+@media (color-gamut:p3){
+#media-color-gamut > .v_p3{ display: block }
+}
+@media (color-gamut:rec2020){
+#media-color-gamut > .v_rec2020{ display: block }
+}
 @media (display-mode:fullscreen){
 #media-display-mode > .v_fullscreen{ display: block }
 }
@@ -55,6 +64,12 @@
 }
 @media (display-mode:browser){
 #media-display-mode > .v_browser{ display: block }
+}
+@media (dynamic-range:standard){
+#media-dynamic-range > .v_standard{ display: block }
+}
+@media (dynamic-range:high){
+#media-dynamic-range > .v_high{ display: block }
 }
 @media (grid:0){
 #media-grid > .v_0{ display: block }
@@ -85,6 +100,12 @@
 }
 @media (hover:hover){
 #media-hover > .v_hover{ display: block }
+}
+@media (inverted-colors:none){
+#media-inverted-colors > .v_none{ display: block }
+}
+@media (inverted-colors:inverted){
+#media-inverted-colors > .v_inverted{ display: block }
 }
 #media-monochrome > .range{ background-size: 11.11111111111111% }
 @media (max-monochrome:1bits){ #media-monochrome > .range{ background-position: 0% } }
@@ -161,6 +182,24 @@
 @media (min-resolution:230dpi){ #media-resolution > .range{ background-position: 77.77777777777779% } }
 @media (min-resolution:260dpi){ #media-resolution > .range{ background-position: 88.88888888888889% } }
 @media (min-resolution:290dpi){ #media-resolution > .range{ background-position: 100% } }
+@media (scripting:none){
+#media-scripting > .v_none{ display: block }
+}
+@media (scripting:initial-only){
+#media-scripting > .v_initial-only{ display: block }
+}
+@media (scripting:enabled){
+#media-scripting > .v_enabled{ display: block }
+}
+@media (update:none){
+#media-update > .v_none{ display: block }
+}
+@media (update:slow){
+#media-update > .v_slow{ display: block }
+}
+@media (update:fast){
+#media-update > .v_fast{ display: block }
+}
 #media-width > .range{ background-size: 9.090909090909092% }
 @media (max-width:300px){ #media-width > .range{ background-position: 0% } }
 @media (min-width:300px){ #media-width > .range{ background-position: 10% } }
@@ -173,3 +212,9 @@
 @media (min-width:2400px){ #media-width > .range{ background-position: 80% } }
 @media (min-width:2700px){ #media-width > .range{ background-position: 90% } }
 @media (min-width:3000px){ #media-width > .range{ background-position: 100% } }
+@media (video-dynamic-range:standard){
+#media-video-dynamic-range > .v_standard{ display: block }
+}
+@media (video-dynamic-range:high){
+#media-video-dynamic-range > .v_high{ display: block }
+}

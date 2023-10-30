@@ -60,10 +60,18 @@
 <div>10</div>
 </pre>
 </div>
+<div id="media-color-gamut" class="media-item">
+<h2>color-gamut</h2>
+<div class="description">Approximate range of colors that are supported by the user agent and output device</div>
+<pre class="v_srgb">srgb</pre><pre class="v_p3">p3</pre><pre class="v_rec2020">rec2020</pre></div>
 <div id="media-display-mode" class="media-item">
 <h2>display-mode</h2>
 <div class="description">The display mode of the application, as specified in the web app manifest's display member</div>
 <pre class="v_fullscreen">fullscreen</pre><pre class="v_standalone">standalone</pre><pre class="v_minimal-ui">minimal-ui</pre><pre class="v_browser">browser</pre></div>
+<div id="media-dynamic-range" class="media-item">
+<h2>dynamic-range</h2>
+<div class="description">Test the combination of brightness, contrast ratio, and color depth that are supported by the user agent and the output device.</div>
+<pre class="v_standard">standard</pre><pre class="v_high">high</pre></div>
 <div id="media-grid" class="media-item">
 <h2>grid</h2>
 <div class="description">Does the device use a grid or bitmap screen? [0 = bitmap; 1 = grid]</div>
@@ -93,6 +101,10 @@
 <h2>hover</h2>
 <div class="description">Does the primary input mechanism allow the user to hover over elements?</div>
 <pre class="v_none">none</pre><pre class="v_hover">hover</pre></div>
+<div id="media-inverted-colors" class="media-item">
+<h2>inverted-colors</h2>
+<div class="description">Is the user agent or underlying OS inverting colors?</div>
+<pre class="v_none">none</pre><pre class="v_inverted">inverted</pre></div>
 <div id="media-monochrome" class="media-item">
 <h2>monochrome</h2>
 <div class="description">Bits per pixel in the output device's monochrome frame buffer, or zero if the device isn't monochrome (bits)</div>
@@ -152,6 +164,14 @@
 <div><span>290</span></div>
 </pre>
 </div>
+<div id="media-scripting" class="media-item">
+<h2>scripting</h2>
+<div class="description">Detects whether scripting (i.e. JavaScript) is available</div>
+<pre class="v_none">none</pre><pre class="v_initial-only">initial-only</pre><pre class="v_enabled">enabled</pre></div>
+<div id="media-update" class="media-item">
+<h2>update</h2>
+<div class="description">How frequently the output device can modify the appearance of content</div>
+<pre class="v_none">none</pre><pre class="v_slow">slow</pre><pre class="v_fast">fast</pre></div>
 <div id="media-width" class="media-item">
 <h2>width</h2>
 <div class="description">Width of the viewport including width of scrollbar (px)</div>
@@ -169,6 +189,10 @@
 <div><span>3000</span></div>
 </pre>
 </div>
+<div id="media-video-dynamic-range" class="media-item">
+<h2>video-dynamic-range</h2>
+<div class="description">Test the combination of brightness, contrast ratio, and color depth that are supported by the user agent and the output device.</div>
+<pre class="v_standard">standard</pre><pre class="v_high">high</pre></div>
 </div>
 </body>
 </html>

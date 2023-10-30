@@ -8,11 +8,13 @@
 "color":{
   "description":"Number of bits per color component of the output device, or zero if the device isn't color","range":{"unit":"","min":1,"max":10,"step":1}},
 "color-gamut":{
-  "description":"Approximate range of colors that are supported by the user agent and output device","values":[],"disabled":true},
+  "description":"Approximate range of colors that are supported by the user agent and output device","values":["srgb","p3","rec2020"]},
 "color-index":{
   "description":"Number of entries in the output device's color lookup table, or zero if the device does not use such a table","values":[],"disabled":true},
 "display-mode":{
   "description":"The display mode of the application, as specified in the web app manifest's display member","values":["fullscreen","standalone","minimal-ui","browser"]},
+"dynamic-range":{
+  "description":"Test the combination of brightness, contrast ratio, and color depth that are supported by the user agent and the output device.","values":["standard","high"]},
 "grid":{
   "description":"Does the device use a grid or bitmap screen? [0 = bitmap; 1 = grid]","values":[0,1]},
 "forced-colors":{
@@ -22,7 +24,7 @@
 "hover":{
   "description":"Does the primary input mechanism allow the user to hover over elements?","values":["none","hover"]},
 "inverted-colors":{
-  "description":"Is the user agent or underlying OS inverting colors?","values":[],"disabled":true},
+  "description":"Is the user agent or underlying OS inverting colors?","values":["none","inverted"]},
 "light-level":{
   "description":"Light level of the environment","values":[],"disabled":true},
 "monochrome":{
@@ -48,9 +50,11 @@
 "scan":{
   "description":"Scanning process of the output device","values":["scan","progressive"],"disabled":true},
 "scripting":{
-  "description":"Detects whether scripting (i.e. JavaScript) is available","values":[],"disabled":true},
+  "description":"Detects whether scripting (i.e. JavaScript) is available","values":["none","initial-only","enabled"]},
 "update":{
-  "description":"How frequently the output device can modify the appearance of content","values":[],"disabled":true},
+  "description":"How frequently the output device can modify the appearance of content","values":["none","slow","fast"]},
 "width":{
-  "description":"Width of the viewport including width of scrollbar","range":{"unit":"px","min":300,"max":3000,"step":300}}
+  "description":"Width of the viewport including width of scrollbar","range":{"unit":"px","min":300,"max":3000,"step":300}},
+"video-dynamic-range":{
+  "description":"Test the combination of brightness, contrast ratio, and color depth that are supported by the user agent and the output device.","values":["standard","high"]}
 }
