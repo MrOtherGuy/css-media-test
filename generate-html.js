@@ -68,6 +68,7 @@ function createTexts(db){
   <title>CSS media query test page</title>
   <link href="main.css" type="text/css" rel="stylesheet"/>
   <link href="generated.css" type="text/css" rel="stylesheet"/>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
 <h1>CSS media-query test page</h1>
