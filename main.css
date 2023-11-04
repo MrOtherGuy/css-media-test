@@ -11,9 +11,13 @@ pre{
 pre.range{ border: none }
 .range{ background-image: linear-gradient(darkseagreen, forestgreen); background-repeat: no-repeat; }
 
+a:hover{ color: purple }
 @media (prefers-color-scheme:dark){
   html{ background: #172730; color: #a0b4aE }
   .range{ background-image: linear-gradient(olive, saddlebrown) }
+  a{ color:coral }
+  a:visited{ color:orchid }
+  a:hover{ color: orange }
 }
 
 .media-item{

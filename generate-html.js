@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 
 function createThing(name,obj,textObject){
 
-  textObject.htmlText += `<div id="media-${name}" class="media-item">\n<h2>${name}</h2>\n<div class="description">${obj.description}`
+  textObject.htmlText += `<div id="media-${name}" class="media-item">\n<h2><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/${name}" target="_blank">${name}</a></h2>\n<div class="description">${obj.description}`
   if(obj.range && obj.range.unit){
     textObject.htmlText += ` (${obj.range.unit})`;
   }
